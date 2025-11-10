@@ -11,9 +11,12 @@ blocklist:
   - Mobile Applikationen
   - Nachklausuren  (120 min)
   # - Consulting und techn. Vertrieb
+  - a35cb83f-8167-4cd2-ad75-8071d98bc3b2
+  - a4d138cc-f743-4c0c-83d3-5bb0cdc68d9f
+  - aac2aaa5-1587-4ed9-8aa6-5577cf98e8da
+  - aa1f9af7-cdd8-434a-b937-db79ccdf5597
   - a090f703-f394-413c-bf06-c8135ea706f2
-  # - aac2aaa5-1587-4ed9-8aa6-5577cf98e8da
-  # - aa1f9af7-cdd8-434a-b937-db79ccdf5597
+  - a25294fe-e25b-4150-80d8-ff5d25d16fc3
   - Studienarbeit
   - Ethik für Informatiker (WM-A)
   - Digitale Forensik  (WMA)
