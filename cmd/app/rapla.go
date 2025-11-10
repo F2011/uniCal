@@ -51,7 +51,10 @@ func (rapla *Rapla) FilterEvents(blocklist []string, notes map[string]string) {
 	// Create a new calendar and copy relevant properties from the original
 	filteredCal := ics.NewCalendar()
 	for _, event := range rapla.cal.Events() {
-		if summaryProperty := event.GetProperty(ics.ComponentPropertySummary); summaryProperty != nil && !(slices.Contains(blocklist, summaryProperty.Value)) {
+		summaryProperty := event.GetProperty(ics.ComponentPropertySummary)
+		uidProperty := event.GetProperty(ics.ComponentPropertyUniqueId)
+
+		if summaryProperty != nil && !(slices.Contains(blocklist, summaryProperty.Value) || slices.Contains(blocklist, uidProperty.Value)) {
 			event := rapla.addNotesToEvent(event, notes)
 
 			filteredCal.AddVEvent(event)

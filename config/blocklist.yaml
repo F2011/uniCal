@@ -10,7 +10,10 @@ blocklist:
   - Entwurf mobiler Applikationen
   - Mobile Applikationen
   - Nachklausuren  (120 min)
-  - Consulting und techn. Vertrieb
+  # - Consulting und techn. Vertrieb
+  - a090f703-f394-413c-bf06-c8135ea706f2
+  # - aac2aaa5-1587-4ed9-8aa6-5577cf98e8da
+  # - aa1f9af7-cdd8-434a-b937-db79ccdf5597
   - Studienarbeit
   - Ethik für Informatiker (WM-A)
   - Digitale Forensik  (WMA)
