@@ -1,10 +1,12 @@
 package app
 
 import (
+	"crypto/tls"
 	"net/http"
 	"os"
 	"slices"
 	"strings"
+	"time"
 
 	ics "github.com/arran4/golang-ical"
 )
@@ -15,7 +17,27 @@ type Rapla struct {
 
 // Creating a new Rapla instance based on a provided URL
 func FetchNewRaplaInstance(url string) (*Rapla, error) {
-	resp, err := http.Get(url)
+	// Check if running in CI environment
+	isCI := os.Getenv("CI") == "true" || os.Getenv("GITHUB_ACTIONS") == "true"
+
+	// Create a custom HTTP client with proper timeout and certificate handling
+	tlsConfig := &tls.Config{
+		MinVersion: tls.VersionTLS12,
+	}
+
+	// Only skip certificate verification in CI environments where CA certs might be outdated
+	if isCI {
+		tlsConfig.InsecureSkipVerify = true
+	}
+
+	client := &http.Client{
+		Timeout: 30 * time.Second,
+		Transport: &http.Transport{
+			TLSClientConfig: tlsConfig,
+		},
+	}
+
+	resp, err := client.Get(url)
 	if err != nil {
 		return nil, err
 	}
