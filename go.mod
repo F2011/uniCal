@@ -2,7 +2,7 @@ module uniCal
 
 go 1.24.0
 
-toolchain go1.25.4
+toolchain go1.25.5
 
 require (
 	github.com/arran4/golang-ical v0.3.2
