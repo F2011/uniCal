@@ -58,6 +58,7 @@ blocklist:
   # Semester 6
   - Beginn Theorie 6. Semester
   - Start 6. Semester
+  - Semesterstart 6.Semester
   - Ende 6. Semester
   - Faschingsdienstag
   - Karfreitag
@@ -72,9 +73,14 @@ blocklist:
   - High Performance Computing
   - Studienarbeitstag
   - Controlling im Gesundhtswsn (MD)
+  - Krankenhausinformationssysteme (MD)
   - Robotik 1
+  - Robotik 2
   - Forensik
   - Grundlagen der Finiten Elemente
   - Digitale Audiosignalverarbeitung
   - Explainable AI
   - angewandtes Projektmanagement (eB&PJM)
+  - e Business (eB&PJM)
+  - Klausur Robotik 1+2  (120 min)
+  
