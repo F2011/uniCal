@@ -1,59 +1,5 @@
 origin_url: "https://rapla.dhbw-karlsruhe.de/rapla?page=ical&user=freudenmann&file=TINF23B1"
 blocklist:
-  # Semester 5
-  - STUV-ADA 3 (freiwilliger Zusatz)
-  - angewandtes Projektmanagement
-  - Interaktive Systeme (KI & IS)
-  - Bildverarbeitung (KI & BV)
-  - e Business
-  - .Grundlagen der KI (KI & BV)
-  - Supervised Machine Learning
-  - Entwurf mobiler Applikationen
-  - Mobile Applikationen
-  - Nachklausuren  (120 min)
-  # - Consulting und techn. Vertrieb
-  - a35cb83f-8167-4cd2-ad75-8071d98bc3b2
-  - a4d138cc-f743-4c0c-83d3-5bb0cdc68d9f
-  - aac2aaa5-1587-4ed9-8aa6-5577cf98e8da
-  - aa1f9af7-cdd8-434a-b937-db79ccdf5597
-  - a090f703-f394-413c-bf06-c8135ea706f2
-  - a25294fe-e25b-4150-80d8-ff5d25d16fc3
-  - Studienarbeit
-  - Ethik für Informatiker (WM-A)
-  - Digitale Forensik  (WMA)
-  - Web-Services (WM-A)
-  - Mathematische Grundlagen der Kryptographie
-  - Gamification
-  - Grundlagen der KI (KI & IS)
-  - Bildverarbetiung  (BV & CG)
-  - Computergraphik  (BV & CG)
-  - Netzwerktreffen für Studentinnen
-  - Allerheiligen
-  - Exkursionstermin TINF23 5. Semester
-  - Anfahrt/Rückfahrt Tieringen
-  - Klausur Web-Services (60 min)
-  - Klausur Zuverlässige Embedded Systeme (60 min)
-  - Klausur Forensik (60 min)
-  - Klausur Mathematische Grundlagen der Kryptographie (60 min)
-  - Supervised Machine Learning Exam  (60 min)
-  - Klausur eBusiness  (90 min)
-  - Klausur Wahlmodul Computergrafik und Bildverarbeitung  (120 min)
-  - Klausur Wahlmodul Künstliche Intelligenz und Bildverarbeitung  (120 min)
-  - Exkursion Fa. VECTOR in Karlsruhe
-  - Hl. 3 Könige
-  - Klausurwoche 5. Semester
-  - Kolloquium 2025  ( min)
-  - mündl. Prüfung  ( min)
-  - Vorbereitungsraum mündl. Prüfung
-  - Klausur Wahlmodul Bildverarbeitung (KI und BV)  (60 min)
-  - Klausur Wahlmodul Künstliche Intelligenz und Bildverarbeitung  (60 min)
-  - Medizinische Informatik
-  - Klausur Wahlmodul Computergrafik (CG und BV)  (60 min)
-  - Klausur Wahlmodul KI (Künstliche Intelligenz und Bildverarbeitung)  (60 min)
-  - Klausur Wahlmodul Bildverarbeitung (CG und BV)  (60 min)
-  - Mobile Applikationen Prüfung  ( min)
-  - Klausurwoche
-  - Klausur Wahlmodul Künstliche Intelligenz und interaktive Systeme  (120 min)
 
   # Semester 6
   - Beginn Theorie 6. Semester
@@ -82,5 +28,22 @@ blocklist:
   - Explainable AI
   - angewandtes Projektmanagement (eB&PJM)
   - e Business (eB&PJM)
-  - Klausur Robotik 1+2  (120 min)
   
+  - Klausur Robotik 1+2  (120 min)
+  - Klausur High Performance Comp  (90 min)
+  - Klausur Erklärebare KI  (60 min)
+  - Klausur Digitale Augiosignalverarbeitung  (60 min)
+  - Klausur Einführung in RUST (60 min)
+  - Klausur Finite Elemente  (60 min)
+  - Klausur Grundlagen KI und Bildverarbeitung  (120 min)
+  - Klausur Grundlagen KI und  Interaktive Systeme  (120 min)
+  
+  - Management von IT-Infrastrukturen
+  - Psychologische Grundlagen für Informatiker (W)
+  - Einführung in RUST
+  - Kolloquium TINF23 Nachtermin  ( min)
+  - Grundlagen KI (aus KI und IS)
+  - Grundlagen KI (aus KI und BV)
+
+  - Abschlussexkursion Prag
+  - Exkursion DEMEA (Medizinische Informatik)
