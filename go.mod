@@ -5,7 +5,7 @@ go 1.24.2
 toolchain go1.26.0
 
 require (
-	github.com/arran4/golang-ical v0.3.2
+	github.com/arran4/golang-ical v0.3.3
 	github.com/charmbracelet/bubbles v1.0.0
 	github.com/charmbracelet/bubbletea v1.3.10
 	github.com/charmbracelet/lipgloss v1.1.0
