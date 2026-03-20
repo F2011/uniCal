@@ -97,9 +97,9 @@ func (rapla *Rapla) addNotesToEvent(event *ics.VEvent, notes map[string]string) 
 			// Append the note to the existing description (using proper line breaks)
 			newDescription := existingDescription
 			if existingDescription != "" {
-				newDescription += "\\n\\n--- Notes ---\\n"
+				newDescription += "  --- Notes ---  "
 			} else {
-				newDescription = "--- Notes ---\\n"
+				newDescription = "  --- Notes ---  "
 			}
 			newDescription += note
 			// Update the event's description property
