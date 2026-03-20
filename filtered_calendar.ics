@@ -1438,11 +1438,12 @@ UID:ad0ce172-0424-4917-843c-952713ff13b7
 SUMMARY:Sprechstunde Advanced SWE
 RRULE:FREQ=WEEKLY;UNTIL=20260514;INTERVAL=1;BYDAY=TU
 EXDATE;TZID=Europe/Berlin:20260512T161500
-DESCRIPTION:Sprechstunde Advanced SWE TINF23B4\, TINF23B1
 LOCATION:
 CATEGORIES:Lehrveranstaltung
 ORGANIZER;CN=Freudenmann\,
   Johannes:MAILTO:johannes.freudenmann@dhbw-karlsruhe.de
+DESCRIPTION:Sprechstunde Advanced SWE TINF23B4\, TINF23B1\\n\\n--- Notes
+  ---\\nhttps://bbb.dhbw.de/rooms/55p-h1i-c3o-hva/join\\nowkioz
 END:VEVENT
 BEGIN:VEVENT
 LAST-MODIFIED:20251201T111726Z
