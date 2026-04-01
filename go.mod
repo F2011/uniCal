@@ -5,7 +5,7 @@ go 1.25.0
 toolchain go1.26.1
 
 require (
-	github.com/arran4/golang-ical v0.3.4
+	github.com/arran4/golang-ical v0.3.5
 	gopkg.in/yaml.v3 v3.0.1
 )
 
