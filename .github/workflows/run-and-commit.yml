@@ -25,7 +25,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y ca-certificates
 
       - name: Install dependencies
-        run: go mod tidy
+        run: go mod download
 
       - name: Run the program
         run: go run ./cmd/
@@ -38,5 +38,5 @@ jobs:
           git checkout calendar-updates
           mv ical/filtered_calendar.ics filtered_calendar.ics
           git add filtered_calendar.ics
-          git commit -m "Update filtered_calendar.ics [skip ci]" || echo "No changes to commit"
+          git commit -m "Update filtered_calendar.ics" || echo "No changes to commit"
           git push origin calendar-updates
